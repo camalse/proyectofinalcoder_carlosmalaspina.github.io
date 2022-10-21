@@ -1,0 +1,335 @@
+.tarjetas_seccion {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.tarjeta {
+  background-color: dodgerblue;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  border-radius: 10px;
+  display: flex;
+}
+
+table {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+td,
+th {
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+th {
+  background-color: dodgerblue;
+}
+
+.banderas ul {
+  display: flex;
+  padding: 45px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.banderitas li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banderas img {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+
+.band:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translate(-3%);
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+.noticias_texto {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.noticia1 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.noticias_texto img {
+  float: left;
+  width: 400px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.noticias_texto p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/*  */
+.noticias_texto2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.noticia1 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.noticias_texto2 img {
+  float: right;
+  width: 400px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.noticias_texto2 p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/*  */
+.noticias_texto3 {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.noticia1 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.noticias_texto3 img {
+  float: left;
+  width: 400px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.noticias_texto3 p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.band:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translate(-3%);
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+#videofutbol {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1c;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
+.fondocontacto {
+  background-image: url(../img/campo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 600px;
+  margin-left: 350px;
+  margin-top: 0px;
+  background-color: rgba(247, 239, 245, 0.76);
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#boton {
+  background: dodgerblue;
+  padding: 10px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+.titulocontacta h2 {
+  color: rgb(245, 238, 238);
+  text-shadow: 0 0 20px rgba(2, 17, 58, 0.979);
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10 px;
+}
+
+.centrobalon {
+  display: flex;
+  width: 200px;
+  margin-left: 6rem;
+  padding-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footerFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.redes-sociales {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+}
+
+.redes ul {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+}
+
+.piedepagina p {
+  display: flex;
+  justify-content: center;
+}
+
+.redes img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.animaredes:hover {
+  box-shadow: 5px 2px 2px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: dodgerblue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fondocolor {
+  background-color: dodgerblue;
+}
+
+.col-lg-12,
+.col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.paddingT {
+  padding-top: 50px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.paddingLR {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ico_foo {
+  transition: 1s;
+}
+
+.ico_foo:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+.textoblanco {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(2, 17, 58, 0.979);
+}
+
+.animanav:hover {
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: white;
+}
+
+header img {
+  width: 6rem;
+}
+
+header img:hover {
+  transform: rotate(320deg);
+}
+
+/*# sourceMappingURL=estilo.css.map */

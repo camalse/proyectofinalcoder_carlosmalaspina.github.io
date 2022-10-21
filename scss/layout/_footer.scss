@@ -1,0 +1,51 @@
+footer ul {
+    list-style: none;
+
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+
+
+.redes-sociales {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.redes ul {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.piedepagina p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.redes img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+}
+
+.animaredes:hover {
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 4);
+    border-radius: 5px;
+    background-color: dodgerblue;
+
+}

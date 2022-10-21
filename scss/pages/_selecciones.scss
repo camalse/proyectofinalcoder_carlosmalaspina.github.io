@@ -1,0 +1,112 @@
+.banderas ul {
+    display: flex;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.banderitas li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banderas img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.band:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    transform: translate(-3%);
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.noticias_texto {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*  */
+.noticias_texto2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto2 img {
+    float: right;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto2 p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*  */
+.noticias_texto3 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto3 img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto3 p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.band:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    transform: translate(-3%);
+    background-color: dodgerblue;
+    border-radius: 5px;
+}

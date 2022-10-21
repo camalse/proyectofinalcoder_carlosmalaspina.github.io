@@ -1,0 +1,15 @@
+.tarjetas_seccion {
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.tarjeta {
+    background-color: dodgerblue;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 10px;
+    display: flex;
+}
