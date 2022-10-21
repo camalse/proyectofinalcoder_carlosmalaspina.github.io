@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fondocolor {
+    background-color: dodgerblue;
+}
+
+.col-lg-12,
+.col-lg-6 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.paddingT {
+    padding-top: 50px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.paddingLR {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ico_foo {
+    transition: 1s;
+}
+
+.ico_foo:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {}
+
+
+.textoblanco {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(2, 17, 58, 0.979);
+
+}
+
+.animanav:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 4);
+    border-radius: 5px;
+    background-color: white;
+
+
+}
+
+header img {
+    width: 6rem;
+
+}
+
+
+header img:hover {
+    transform: rotate(320deg);
+}
+
+/* ***********************************************************************HEADER********************************************************** */
+
+/* ***********************************************************************footer********************************************************** */
+footer ul {
+    list-style: none;
+
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+
+
+.redes-sociales {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.redes ul {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.piedepagina p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.redes img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+}
+
+.animaredes:hover {
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 4);
+    border-radius: 5px;
+    background-color: dodgerblue;
+
+}
+
+/* ***********************************************************************footer********************************************************** */
+
+/* ***********************************************************************ESTILOS PAGINAS SELECCIONES********************************************************** */
+.banderas ul {
+    display: flex;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.banderitas li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banderas img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+
+.band:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    transform: translate(-3%);
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.noticias_texto {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*  */
+.noticias_texto2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto2 img {
+    float: right;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto2 p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*  */
+.noticias_texto3 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.noticia1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.noticias_texto3 img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.noticias_texto3 p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.band:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    transform: translate(-3%);
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
